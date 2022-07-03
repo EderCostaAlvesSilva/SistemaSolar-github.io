@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SISTEMA SOLAR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>calculate a weight of an object on a planet</h1>
+
+        <section>
+            <input placeholder="Informe o peso" type="text" id="peso">
+            <select name="" id="planetas">
+                <option value="">Escolha um planeta</option>
+                <option value="earth">Terra</option>
+                <option value="jupiter">Jupiter</option>
+                <option value="mars">Marte</option>
+                <option value="mercury">Mercurio</option>
+                <option value="moon">Lua</option>
+                <option value="neptune">Neturno</option>
+                <option value="saturn">Saturno</option>
+                <option value="pluto">Pluto</option>
+                <option value="uranus">Uranio</option>
+                <option value="venus">Venus</option>
+
+            </select>
+            <button id="btn" type="button">Calcular Peso</button>
+        </section>
+
+        <section id="conteudo">
+            <div id="saida">
+                <p id="texto"></p>
+                <div id="valorPeso"></div>
+            </div>
+        </section>
+    </div>
+
+   
+    <script src="app.js"></script>
+</body>
+</html>
